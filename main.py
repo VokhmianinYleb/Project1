@@ -12,23 +12,6 @@ class BadUIApp(QMainWindow):
         self.setWindowTitle("Форма реєстрації з помилками")
         self.setMinimumSize(QSize(500, 200))
 
-        self.setStyleSheet("""
-            QWidget {
-                background-color: #333;
-                color: #FFFFFF;
-            }
-            QPushButton {
-                background-color: #555;
-                color: #00008B; /* DarkBlue */
-                font-weight: bold;
-                padding: 5px;
-            }
-            QLineEdit {
-                background-color: #444;
-                border: 1px solid #666;
-            }
-        """)
-
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
 
