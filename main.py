@@ -10,7 +10,7 @@ class BadUIApp(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Форма реєстрації з помилками")
-        self.setMinimumSize(QSize(800, 400))
+        self.setMinimumSize(QSize(1000, 1000))
 
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
