@@ -43,7 +43,7 @@ class BadUIApp(QMainWindow):
         self.password_input = QLineEdit()
         self.password_input.setEchoMode(QLineEdit.EchoMode.Password)
 
-        self.submit_button = QPushButton("Відправити...")
+        self.submit_button = QPushButton("Відправити")
         
         self.clear_button = QPushButton("ОК")
 
