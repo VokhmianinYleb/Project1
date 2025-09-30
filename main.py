@@ -45,7 +45,7 @@ class BadUIApp(QMainWindow):
 
         self.submit_button = QPushButton("Відправити")
         
-        self.clear_button = QPushButton("Очистити")
+        self.clear_button = QPushButton("Oчистити")
 
         form_layout = QVBoxLayout()
         form_layout.addWidget(username_label)
