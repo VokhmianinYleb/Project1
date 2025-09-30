@@ -73,7 +73,7 @@ class BadUIApp(QMainWindow):
         QMessageBox.information(
             self,
             "Успіх!",
-            f"Дякуємо за реєстрацію, {username}!\nВаш пароль: {password}"
+            f"Дякуємо за реєстрацію, {username}!"
         )
 
     def clear_form(self):
