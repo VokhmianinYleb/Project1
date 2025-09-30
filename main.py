@@ -45,7 +45,7 @@ class BadUIApp(QMainWindow):
 
         self.submit_button = QPushButton("Відправити")
         
-        self.clear_button = QPushButton("ОК")
+        self.clear_button = QPushButton("Очистити")
 
         form_layout = QVBoxLayout()
         form_layout.addWidget(username_label)
@@ -79,7 +79,11 @@ class BadUIApp(QMainWindow):
     def clear_form(self):
         self.username_input.clear()
         self.password_input.clear()
-        print("Форму очищено!")
+        QMessageBox.information(
+            self,
+            "Успіх!",
+            f"Форму очищено!"
+        )
 
 
 if __name__ == "__main__":
