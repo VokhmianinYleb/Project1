@@ -1,6 +1,8 @@
 - [ ] Написати документацію
 - [X] Розробити програмний код
 
+<img width="400" height="156" alt="image" src="https://github.com/user-attachments/assets/09092e28-e118-4080-bb5a-0dfaad7414c3" />
+
 # Заголовок 1
 ## Заголовок 2
 ### Заголовок 3
